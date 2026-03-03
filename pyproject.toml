@@ -1,5 +1,5 @@
 [project]
-name = "docker-ci-test"
+name = "ci-test"
 version = "1.0.0"
 description = ""
 authors = [
@@ -10,6 +10,9 @@ requires-python = ">=3.14"
 dependencies = [
     "flask (>=3.1.2,<4.0.0)"
 ]
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8,<2.0"
 
 [tool.poetry]
 package-mode = false
